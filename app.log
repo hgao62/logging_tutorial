@@ -1,0 +1,8 @@
+2025-05-15 17:46:36,709 - INFO- main.py:19  - This is an info message
+2025-05-15 17:46:36,709 - WARNING- main.py:20  - This is a warning message
+2025-05-15 17:46:36,710 - ERROR- main.py:21  - This is an error message
+2025-05-15 17:46:36,710 - CRITICAL- main.py:22  - This is a critical message
+2025-05-15 17:46:36,710 - INFO- transform.py:7  - Adding two numbers 5 and 10
+2025-05-15 17:46:36,710 - INFO- transform.py:9  - Addition result: 15
+2025-05-15 17:46:36,711 - INFO- transform.py:14  - Dividing two numbers 10 and 0
+2025-05-15 17:46:36,711 - ERROR- transform.py:21  - Division by zero error: division by zero
