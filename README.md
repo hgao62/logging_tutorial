@@ -42,13 +42,21 @@ logging_tutorial/
 在 `main.py` 中，使用如下方式配置日志：
 
 ```python
+import logging # 第一步：import logging 模块
+
+# 第二步： 设置logging 的细节
 logging.basicConfig(
     filemode="a", # 追加模式
     format="%(asctime)s - %(levelname)s- %(filename)s:%(lineno)s  - %(message)s", # 日志格式
     filename="app.log", # 日志文件名
     level=logging.INFO, # 日志级别
 )
+# 第三步： 创建logger object
 logger = logging.getLogger(__name__)
+
+# 第四步： 在你想要加logging 的地方加上logging 信息
+logger.info("你想要加的logging 信息写在这里")
+
 ```
 
 ### 日志记录示例
